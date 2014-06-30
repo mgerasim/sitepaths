@@ -1,0 +1,1675 @@
+/* line 61, ../sass/yieldify.scss */
+.no-css-hide {
+  display: inherit;
+}
+
+/* line 69, ../sass/yieldify.scss */
+.after-stripe:after {
+  content: " ";
+  display: block;
+  height: 16px;
+  width: 100%;
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/stripe.png") !important;
+}
+
+/* line 86, ../sass/yieldify.scss */
+.mounted {
+  border: solid 8px #f6f6f6;
+  outline-offset: 0px;
+  -webkit-box-shadow: 0px 0px 26px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 0px 0px 26px rgba(50, 50, 50, 0.25);
+  box-shadow: 0px 0px 26px rgba(50, 50, 50, 0.25);
+}
+
+/* line 89, ../sass/yieldify.scss */
+.ytmodalbox img {
+  border: solid 8px #f6f6f6;
+  outline-offset: 0px;
+  -webkit-box-shadow: 0px 0px 26px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 0px 0px 26px rgba(50, 50, 50, 0.25);
+  box-shadow: 0px 0px 26px rgba(50, 50, 50, 0.25);
+}
+
+/* line 94, ../sass/yieldify.scss */
+.video-js {
+  background-color: #CCC;
+}
+
+/* line 98, ../sass/yieldify.scss */
+.how-we-target-content {
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/dashboard-close.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+@media (max-width: 991px) {
+  /* line 105, ../sass/yieldify.scss */
+  .how-we-target-content {
+    background-image: none;
+  }
+}
+/* line 113, ../sass/yieldify.scss */
+.how-we-target > div.row > div.col-md-6 h5,
+.features-section > div.row > div.col-md-6 h5,
+.types-of-campaigns > div.row > div.col-md-6 h5 {
+  color: #3781c2;
+}
+
+/* line 129, ../sass/yieldify.scss */
+.static-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/index-icons.png") !important;
+}
+
+/* line 138, ../sass/yieldify.scss */
+.blue-bg .static-icon {
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/index-icons-i.png") !important;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-1 {
+  background-position: 0px -0px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-2 {
+  background-position: 0px -40px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-3 {
+  background-position: 0px -80px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-4 {
+  background-position: 0px -120px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-5 {
+  background-position: 0px -160px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-6 {
+  background-position: 0px -200px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-7 {
+  background-position: 0px -240px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-8 {
+  background-position: 0px -280px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-9 {
+  background-position: 0px -320px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-10 {
+  background-position: 0px -360px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-11 {
+  background-position: 0px -400px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-12 {
+  background-position: 0px -440px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-13 {
+  background-position: 0px -480px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-14 {
+  background-position: 0px -520px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-15 {
+  background-position: 0px -560px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-16 {
+  background-position: 0px -600px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-17 {
+  background-position: 0px -640px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-18 {
+  background-position: 0px -680px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-19 {
+  background-position: 0px -720px;
+}
+
+/* line 144, ../sass/yieldify.scss */
+.static-icon-20 {
+  background-position: 0px -760px;
+}
+
+/* line 149, ../sass/yieldify.scss */
+.static-icon-20 {
+  height: 60px;
+}
+
+/** 
+	Textured children
+	=================
+**/
+/* line 196, ../sass/yieldify.scss */
+.textured-bg {
+  background-color: transparent;
+  opacity: 1;
+}
+
+/* line 201, ../sass/yieldify.scss */
+.shadow-top-and-bottom-inset {
+  -webkit-box-shadow: inset 0px -1px 45px -20px rgba(50, 50, 100, 0.35);
+  -moz-box-shadow: inset 0px -1px 45px -20px rgba(50, 50, 100, 0.35);
+  box-shadow: inset 0px -1px 45px -20px rgba(50, 50, 100, 0.35);
+  background-color: #fcfcfc;
+}
+
+/* line 205, ../sass/yieldify.scss */
+.shadow-top-inset {
+  -webkit-box-shadow: inset 0 20px 20px -20px rgba(50, 50, 50, 0.35);
+  -moz-box-shadow: inset 0 20px 20px -20px rgba(50, 50, 50, 0.35);
+  box-shadow: inset 0 20px 20px -20px rgba(50, 50, 50, 0.35);
+}
+
+/* line 208, ../sass/yieldify.scss */
+.shadow-bottom-inset {
+  -webkit-box-shadow: inset 0px -40px 20px -30px rgba(50, 50, 50, 0.35);
+  -moz-box-shadow: inset 0px -40px 20px -30px rgba(50, 50, 50, 0.35);
+  box-shadow: inset 0px -40px 20px -30px rgba(50, 50, 50, 0.35);
+}
+
+/* line 227, ../sass/yieldify.scss */
+.blue-arrows-bg {
+  background: -webkit-linear-gradient(-45deg, #3c86c8 45px, transparent 45px) 64px 64px, -webkit-linear-gradient(-45deg, #3c86c8 45px, transparent 45px, transparent 91px, #3781c2 91px, #3781c2 135px, transparent 135px), -webkit-linear-gradient(45deg, #3c86c8 23px, transparent 23px, transparent 68px, #3c86c8 68px, #3c86c8 113px, transparent 113px, transparent 158px, #3c86c8 158px);
+  background: -moz-linear-gradient(-45deg, #3c86c8 45px, transparent 45px) 64px 64px, -moz-linear-gradient(-45deg, #3c86c8 45px, transparent 45px, transparent 91px, #3781c2 91px, #3781c2 135px, transparent 135px), -moz-linear-gradient(45deg, #3c86c8 23px, transparent 23px, transparent 68px, #3c86c8 68px, #3c86c8 113px, transparent 113px, transparent 158px, #3c86c8 158px);
+  background: -o-linear-gradient(-45deg, #3c86c8 45px, transparent 45px) 64px 64px, -o-linear-gradient(-45deg, #3c86c8 45px, transparent 45px, transparent 91px, #3781c2 91px, #3781c2 135px, transparent 135px), -o-linear-gradient(45deg, #3c86c8 23px, transparent 23px, transparent 68px, #3c86c8 68px, #3c86c8 113px, transparent 113px, transparent 158px, #3c86c8 158px);
+  background: -ms-linear-gradient(-45deg, #3c86c8 45px, transparent 45px) 64px 64px, -ms-linear-gradient(-45deg, #3c86c8 45px, transparent 45px, transparent 91px, #3781c2 91px, #3781c2 135px, transparent 135px), -ms-linear-gradient(45deg, #3c86c8 23px, transparent 23px, transparent 68px, #3c86c8 68px, #3c86c8 113px, transparent 113px, transparent 158px, #3c86c8 158px);
+  background: linear, -45deg, #3c86c8 45px, transparent 45px 64px 64px, linear, -45deg, #3c86c8 45px, transparent 45px, transparent 91px, #3781c2 91px, #3781c2 135px, transparent 135px, linear, 45deg, #3c86c8 23px, transparent 23px, transparent 68px, #3c86c8 68px, #3c86c8 113px, transparent 113px, transparent 158px, #3c86c8 158px;
+  -webkit-background-size: 128px 128px;
+  -moz-background-size: 128px 128px;
+  background-size: 128px 128px;
+  background-color: #3781c2;
+}
+
+/* line 244, ../sass/yieldify.scss */
+.blue-bg {
+  background-color: #3781c2 !important;
+}
+
+/* line 248, ../sass/yieldify.scss */
+.green-bg {
+  background-color: #48a049 !important;
+}
+
+/**
+	STOP TOP FROM SHRINKING
+**/
+/* line 256, ../sass/yieldify.scss */
+.zero-logo {
+  position: absolute;
+}
+
+/* line 260, ../sass/yieldify.scss */
+.zero-logo img:last-child {
+  /*
+  width:127px;
+  height:40px;
+  */
+  background-repeat: no-repeat;
+  font-size: 36pt;
+  text-align: left;
+  color: #3781c2;
+  float: left;
+  position: relative;
+  width: auto;
+  height: 50px;
+  margin: 0px;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+
+/*@media screen and (max-width:479px) {
+ .zero-logo a:after { 
+		display:none;
+	}
+}
+*/
+/* line 286, ../sass/yieldify.scss */
+.zero-logo a.hidden-word:after {
+  opacity: 0;
+}
+
+/* line 290, ../sass/yieldify.scss */
+.zero-logo a img {
+  float: left;
+}
+
+/* line 305, ../sass/yieldify.scss */
+.search-btn {
+  background-image: url("images/home/search-close.png");
+}
+
+/* line 316, ../sass/yieldify.scss */
+h4 {
+  padding: 0 0 0.5em 0;
+  font-weight: 300;
+  /*
+  font-style: italic;
+  color:#888;
+  padding-bottom: 1em;
+  */
+}
+
+/* line 326, ../sass/yieldify.scss */
+p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  letter-spacing: 0.02em;
+  word-spacing: 0.2em;
+}
+
+/* line 335, ../sass/yieldify.scss */
+h4.sub {
+  padding: 1em 0;
+}
+
+/* line 339, ../sass/yieldify.scss */
+.sub {
+  color: #999999;
+}
+
+/* line 343, ../sass/yieldify.scss */
+.tertiary {
+  color: #CCCCCC;
+}
+
+/* line 347, ../sass/yieldify.scss */
+.dark-gray-bg {
+  background-color: #EEEEEE;
+  background-image: none;
+}
+/* line 352, ../sass/yieldify.scss */
+.dark-gray-bg .container .bootstrap-select.language-select.btn-group .caret {
+  border-color: gainsboro !important;
+}
+/* line 355, ../sass/yieldify.scss */
+.dark-gray-bg .container .caret, .dark-gray-bg .container a, .dark-gray-bg .container button {
+  color: #666 !important;
+  border-color: gainsboro !important;
+}
+
+/* line 363, ../sass/yieldify.scss */
+.forced-wrap-300 {
+  white-space: normal !important;
+  max-width: 300px;
+}
+
+/* line 368, ../sass/yieldify.scss */
+.forced-wrap-400 {
+  white-space: normal !important;
+  max-width: 400px;
+}
+
+/* line 373, ../sass/yieldify.scss */
+.wall-holder {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+/* line 378, ../sass/yieldify.scss */
+.wall-item, .wall .item-content-image {
+  width: 240px;
+  height: 150px;
+}
+
+/* line 384, ../sass/yieldify.scss */
+.logo-img {
+  width: 100px;
+  height: 92px;
+  background-image: url("../images/header/yeldify-logo-white-big.png");
+}
+
+/* line 390, ../sass/yieldify.scss */
+ul.emails {
+  list-style: none;
+}
+/* line 392, ../sass/yieldify.scss */
+ul.emails a {
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+/* line 402, ../sass/yieldify.scss */
+.tp-leftarrow.default {
+  background: url("../revolution-slider/rs-plugin/assets/large_left.png") no-Repeat 0 0;
+  opacity: 0.75;
+}
+
+/* line 406, ../sass/yieldify.scss */
+.tp-rightarrow.default {
+  background: url("../revolution-slider/rs-plugin/assets/large_right.png") no-Repeat 0 0;
+  opacity: 0.75;
+}
+
+/* line 411, ../sass/yieldify.scss */
+.tp-leftarrow.default:hover, .tp-rightarrow.default:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 417, ../sass/yieldify.scss */
+  nav {
+    width: 100% !important;
+  }
+
+  /* line 420, ../sass/yieldify.scss */
+  .tp-bullets, .tparrows {
+    display: none;
+  }
+}
+/* line 425, ../sass/yieldify.scss */
+.mobile-menu-holder li {
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #f3f3f3;
+}
+/* line 428, ../sass/yieldify.scss */
+.mobile-menu-holder li > a {
+  padding: 20px 20px !important;
+  color: #666 !important;
+}
+/* line 433, ../sass/yieldify.scss */
+.mobile-menu-holder li:hover {
+  border-top: 1px solid #666;
+  background: #999;
+  color: white;
+}
+/* line 437, ../sass/yieldify.scss */
+.mobile-menu-holder li:hover > a {
+  color: #FFF !important;
+}
+
+/* line 443, ../sass/yieldify.scss */
+.mobile-nav {
+  width: 100%;
+  float: left;
+}
+/* line 446, ../sass/yieldify.scss */
+.mobile-nav > * {
+  float: right;
+}
+/* line 452, ../sass/yieldify.scss */
+.mobile-nav .mobile-menu-holder {
+  position: absolute;
+  top: 63px;
+  float: left;
+  background-color: #EEEEEE;
+  -webkit-transition: opacity, 0.25s;
+  -moz-transition: opacity, 0.25s;
+  transition: opacity, 0.25s;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 462, ../sass/yieldify.scss */
+.mobile-nav .mobile-menu-holder li {
+  width: 100%;
+}
+/* line 464, ../sass/yieldify.scss */
+.mobile-nav .mobile-menu-holder li a {
+  color: #333333;
+  font-size: 1.5em !important;
+  width: 100%;
+}
+/* line 475, ../sass/yieldify.scss */
+.mobile-nav a {
+  height: 60px;
+  color: black;
+  width: 45px;
+  display: inline-block;
+}
+
+/* line 487, ../sass/yieldify.scss */
+.lang-sel.mobile-version {
+  top: -60px;
+  left: 220px;
+}
+/* line 491, ../sass/yieldify.scss */
+.lang-sel.mobile-version button.btn-default {
+  background: 0 0;
+  box-shadow: none;
+  font-family: 'Open Sans',sans-serif;
+  color: #505050;
+  font-weight: 200;
+  height: 40px;
+  width: 45px;
+  border: none;
+  color: #999;
+  border: none;
+}
+
+/* line 506, ../sass/yieldify.scss */
+.lang-sel-mobile-button {
+  padding-top: 2px;
+  color: #DDD;
+  font-size: inherit;
+  font-size: 24px;
+}
+
+/* line 513, ../sass/yieldify.scss */
+.menu-toggle {
+  display: block;
+  width: 100%;
+  position: inherit;
+  padding: 10px 20px;
+  color: #fff;
+  background: #2d333d;
+  font-size: 1.6em;
+  text-align: left;
+  cursor: pointer;
+}
+
+/*******************************************
+				Mobile Menu
+********************************************/
+/* line 533, ../sass/yieldify.scss */
+#toggle {
+  float: left;
+}
+
+/* line 542, ../sass/yieldify.scss */
+.mobile-button-holder {
+  padding: 8px;
+  float: right !important;
+  display: none;
+}
+
+/* line 549, ../sass/yieldify.scss */
+.lines-button:hover .line {
+  background-color: #333333;
+}
+
+/* line 555, ../sass/yieldify.scss */
+.lines-button {
+  background-color: #FFFFFF;
+  padding: 4px;
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+  border: 0;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  transition: .3s;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.5rem;
+}
+/* line 570, ../sass/yieldify.scss */
+.lines-button:hover {
+  opacity: 1;
+}
+/* line 574, ../sass/yieldify.scss */
+.lines-button:active {
+  transition: 0;
+}
+
+/* line 579, ../sass/yieldify.scss */
+.closed-menu {
+  opacity: 0 !important;
+}
+
+/* line 593, ../sass/yieldify.scss */
+.lines {
+  top: -4px;
+  display: inline-block;
+  width: 2.5rem;
+  height: 5px;
+  background: #cccccc;
+  border-radius: 0.17857rem;
+  transition: 0.3s;
+  position: relative;
+  /*create the upper and lower lines as pseudo-elements of the middle line*/
+}
+/* line 600, ../sass/yieldify.scss */
+.lines:before, .lines:after {
+  display: inline-block;
+  width: 2.5rem;
+  height: 5px;
+  background: #cccccc;
+  border-radius: 0.17857rem;
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  content: '';
+  transform-origin: 0.17857rem center;
+}
+/* line 608, ../sass/yieldify.scss */
+.lines:before {
+  top: 0.83333rem;
+}
+/* line 609, ../sass/yieldify.scss */
+.lines:after {
+  top: -0.83333rem;
+}
+
+/* line 613, ../sass/yieldify.scss */
+.lines-button:hover {
+  opacity: 1;
+}
+/* line 617, ../sass/yieldify.scss */
+.lines-button:hover .lines:before {
+  top: 0.71429rem;
+}
+/* line 618, ../sass/yieldify.scss */
+.lines-button:hover .lines:after {
+  top: -0.71429rem;
+}
+
+/* line 623, ../sass/yieldify.scss */
+.lines-button.arrow.close {
+  transform: scale3d(1, 0.8, 0.8);
+}
+
+/* line 630, ../sass/yieldify.scss */
+.lines-button.arrow.close .lines:before, .lines-button.arrow.close .lines:after {
+  top: 0;
+  width: 40px;
+}
+/* line 635, ../sass/yieldify.scss */
+.lines-button.arrow.close .lines:before {
+  transform: rotate3d(0, 0, 1, 40deg);
+}
+/* line 636, ../sass/yieldify.scss */
+.lines-button.arrow.close .lines:after {
+  transform: rotate3d(0, 0, 1, -40deg);
+}
+
+/* line 639, ../sass/yieldify.scss */
+.slide-bg {
+  width: 1920px;
+  height: 500px;
+  display: block;
+}
+
+/*******************************************/
+/* line 650, ../sass/yieldify.scss */
+.red-bg {
+  background-image: none;
+  background-color: red;
+}
+
+/* line 656, ../sass/yieldify.scss */
+.inc-stat-heading {
+  padding: 0em 0em;
+  font-size: 2.2em;
+  line-height: 1.5em;
+  font-weight: 200;
+}
+
+/* line 663, ../sass/yieldify.scss */
+.inc-stat-number {
+  font-weight: 600;
+  width: 4.5em;
+  text-align: right;
+  display: inline-block;
+}
+
+/* line 670, ../sass/yieldify.scss */
+.line {
+  whitespace: nowrap;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 675, ../sass/yieldify.scss */
+  .inc-stat-heading {
+    font-size: 2.22em;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 979px) {
+  /* line 682, ../sass/yieldify.scss */
+  .inc-stat-heading {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 689, ../sass/yieldify.scss */
+  .inc-stat-heading {
+    font-size: 1.75em;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 697, ../sass/yieldify.scss */
+  .inc-stat-heading {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+}
+/**
+	 style over write
+**/
+/* line 712, ../sass/yieldify.scss */
+.header-box-shadow {
+  -webkit-box-shadow: 0 0 0 0 !important;
+  -moz-box-shadow: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+  border-bottom: solid 1px #e6e6e6;
+  /*			content:"\a0";
+  		    display:block;
+  		    padding:1px 0;
+  		    line-height:1px;
+  		    border-bottom:1px solid rgba(0, 0, 0, 0.1); 
+  		    */
+}
+
+/* line 725, ../sass/yieldify.scss */
+.info_box {
+  background-color: transparent;
+  opacity: 1;
+  background-color: #3781c2 !important;
+  padding: 0;
+}
+/* line 729, ../sass/yieldify.scss */
+.info_box .container {
+  margin-top: -4px;
+  padding: 26px 0 24px;
+}
+
+/* line 736, ../sass/yieldify.scss */
+.fullwidthbanner-container {
+  opacity: 0;
+  -webkit-transition: opacity, 1s;
+  -moz-transition: opacity, 1s;
+  transition: opacity, 1s;
+}
+
+/* line 740, ../sass/yieldify.scss */
+.info_box:before {
+  content: "\a0";
+  display: block;
+  padding: 1px 0;
+  line-height: 1px;
+  border-top: 2px solid rgba(255, 255, 255, 0);
+  margin-top: -1px;
+}
+
+/* line 745, ../sass/yieldify.scss */
+.info_box:after {
+  content: "\a0";
+  display: block;
+  padding: 0px 0;
+  line-height: 0px;
+  border-top: 2px solid rgba(255, 255, 255, 0);
+  margin-top: -1px;
+}
+
+/* line 748, ../sass/yieldify.scss */
+.info_box_last:after {
+  display: none;
+}
+
+/* line 754, ../sass/yieldify.scss */
+.info_box-heading {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 600;
+  padding: 18px 0em;
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 979px) {
+  /* line 768, ../sass/yieldify.scss */
+  .info_box-heading {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 7px 0em 19px 0;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 782, ../sass/yieldify.scss */
+  .info_box-heading {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+/* line 791, ../sass/yieldify.scss */
+a .info_box {
+  background-image: none !important;
+  -webkit-transition: background 0.18s ease-in 0;
+  -moz-transition: background 0.18s ease-in 0;
+  transition: background 0.18s ease-in 0;
+}
+/* line 795, ../sass/yieldify.scss */
+a .info_box i {
+  -webkit-transition: left 0.2s ease-in 0s;
+  -moz-transition: left 0.2s ease-in 0s;
+  transition: left 0.2s ease-in 0s;
+  display: block;
+  position: relative;
+  left: 0px;
+}
+/* line 805, ../sass/yieldify.scss */
+a .info_box:hover i {
+  left: 20px;
+}
+
+/* line 812, ../sass/yieldify.scss */
+.tp-bullets {
+  z-index: 100 !important;
+}
+
+/* line 815, ../sass/yieldify.scss */
+.info_box-green {
+  background-color: transparent;
+  opacity: 1;
+  background-color: #48a049 !important;
+  -webkit-transition: background 4s ease-in 0s;
+  -moz-transition: background 4s ease-in 0s;
+  transition: background 4s ease-in 0s;
+}
+
+/* line 822, ../sass/yieldify.scss */
+.inline {
+  display: inline;
+}
+
+/* line 826, ../sass/yieldify.scss */
+div.fullwidthbanner ul li a {
+  z-index: 9999;
+}
+/* line 829, ../sass/yieldify.scss */
+div.fullwidthbanner ul li .very_big_white {
+  color: #FFFFFF;
+}
+/* line 833, ../sass/yieldify.scss */
+div.fullwidthbanner ul li .small_white {
+  color: #FFFFFF;
+  font-size: 1.75em;
+}
+/* line 837, ../sass/yieldify.scss */
+div.fullwidthbanner ul li .very_small_white {
+  color: #FFFFFF;
+  font-size: 16px !important;
+}
+
+/* line 846, ../sass/yieldify.scss */
+body.de div.fullwidthbanner ul li .very_big_white {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+/* line 850, ../sass/yieldify.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #393939;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+}
+
+/* line 855, ../sass/yieldify.scss */
+h4 {
+  font-weight: 300;
+}
+
+/* line 859, ../sass/yieldify.scss */
+h5 {
+  line-height: 1.6em;
+  font-weight: 400;
+  color: #404040;
+}
+
+/* line 866, ../sass/yieldify.scss */
+input {
+  border: solid 1px #CCCCCC;
+}
+
+/* line 876, ../sass/yieldify.scss */
+input-placeholder {
+  font-size: 0.75em;
+  padding-top: 3px;
+}
+
+/* line 879, ../sass/yieldify.scss */
+::-webkit-input-placeholder {
+  font-size: 0.75em;
+  padding-top: 3px;
+}
+
+/* line 883, ../sass/yieldify.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 0.75em;
+  padding-top: 3px;
+}
+
+/* line 887, ../sass/yieldify.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 0.75em;
+  padding-top: 3px;
+}
+
+/* line 891, ../sass/yieldify.scss */
+:-ms-input-placeholder {
+  font-size: 0.75em;
+  padding-top: 3px;
+}
+
+/* line 903, ../sass/yieldify.scss */
+.fancybox-skin {
+  border: solid 1px #999999;
+}
+
+/* line 908, ../sass/yieldify.scss */
+.fancybox-skin {
+  background-color: #FFFFFF;
+}
+
+/* line 912, ../sass/yieldify.scss */
+.fancybox-inner {
+  height: auto !important;
+}
+
+/* line 916, ../sass/yieldify.scss */
+#inline {
+  width: 100%;
+  -webkit-transition: width, 1s;
+  -moz-transition: width, 1s;
+  transition: width, 1s;
+}
+
+/* line 921, ../sass/yieldify.scss */
+.padding-sides24 {
+  padding: 0 24px;
+}
+
+/* line 925, ../sass/yieldify.scss */
+form#contact {
+  background-repeat: no-repeat;
+  padding: 0 14px;
+  margin: 0 24px 24px 24px;
+  z-index: 4444;
+  background-color: #FFFFFF;
+}
+/* line 932, ../sass/yieldify.scss */
+form#contact select {
+  height: 42px;
+}
+/* line 935, ../sass/yieldify.scss */
+form#contact .form-img {
+  width: 100%;
+  height: 300px;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 944, ../sass/yieldify.scss */
+  #contact {
+    background-repeat: no-repeat;
+    background-position: right 0px top;
+  }
+
+  /* line 949, ../sass/yieldify.scss */
+  #inline {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 979px) {
+  /* line 957, ../sass/yieldify.scss */
+  #inline {
+    width: 500px;
+  }
+
+  /* line 962, ../sass/yieldify.scss */
+  form#contact input, form#contact select {
+    max-width: 320px;
+    margin: 0 auto;
+    display: block;
+  }
+  /* line 968, ../sass/yieldify.scss */
+  form#contact button {
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 976, ../sass/yieldify.scss */
+  #inline {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 983, ../sass/yieldify.scss */
+  #inline {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 321px) {
+  /* line 990, ../sass/yieldify.scss */
+  #inline {
+    width: 240px;
+  }
+}
+/* line 996, ../sass/yieldify.scss */
+.icon-play {
+  background-color: #999999 !important;
+}
+
+/* line 1001, ../sass/yieldify.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 1008, ../sass/yieldify.scss */
+.primary-button {
+  display: inline-block;
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+  border: 0;
+  background: #5cb221;
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 0px;
+  white-space: nowrap;
+  -webkit-transition: background 1s ease-in 0s;
+  -moz-transition: background 1s ease-in 0s;
+  transition: background 1s ease-in 0s;
+  transition-duration: 1.0s !important;
+}
+
+/* line 1030, ../sass/yieldify.scss */
+.de .primary-button {
+  font-size: 15px;
+}
+
+/* line 1033, ../sass/yieldify.scss */
+.primary-button:hover {
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+  border: 0;
+  background: #5cb221;
+  background: #67c825;
+  /*
+  background-image: -moz-linear-gradient(top, $btnCol1, lighten($btnCol1, 5%));
+  background-image: -ms-linear-gradient(top, $btnCol1, lighten($btnCol1, 5%));
+  background-image: -o-linear-gradient(top, $btnCol1, lighten($btnCol1, 5%));
+*/
+  text-decoration: none;
+  color: #ffffff !important;
+  border: 0;
+}
+
+/* line 1053, ../sass/yieldify.scss */
+.secondary-button {
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+  border: 0;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
+  background-image: -moz-linear-gradient(top, white, #e6e6e6);
+  background-image: -ms-linear-gradient(top, white, #e6e6e6);
+  background-image: -o-linear-gradient(top, white, #e6e6e6);
+  background-image: linear, to bottom, white, #e6e6e6;
+  -webkit-box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.2);
+  font-family: Arial;
+  color: #2980b9;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 10px;
+  white-space: nowrap;
+}
+
+/* line 1079, ../sass/yieldify.scss */
+.de .secondary-button {
+  font-size: 15px;
+}
+
+/* line 1082, ../sass/yieldify.scss */
+.secondary-button:hover {
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+  border: 0;
+  background: #7fceff;
+  background-image: -webkit-linear-gradient(top, #7fceff, #3ba5eb);
+  background-image: -moz-linear-gradient(top, #7fceff, #3ba5eb);
+  background-image: -ms-linear-gradient(top, #7fceff, #3ba5eb);
+  background-image: -o-linear-gradient(top, #7fceff, #3ba5eb);
+  background-image: linear, to bottom, #7fceff, #3ba5eb;
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+/* line 1100, ../sass/yieldify.scss */
+img {
+  display: inline;
+}
+
+/* line 1104, ../sass/yieldify.scss */
+header {
+  min-height: 40px;
+  z-index: 101;
+}
+
+/* line 1110, ../sass/yieldify.scss */
+.zero-logo a {
+  padding: 8px 0 0 0;
+}
+
+/* line 1115, ../sass/yieldify.scss */
+.btn.btn-default.dropdown-toggle {
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 1px;
+  color: #999;
+}
+/* line 1120, ../sass/yieldify.scss */
+.btn.btn-default.dropdown-toggle .caret {
+  color: #999;
+  border-top-color: #999;
+}
+
+/* line 1126, ../sass/yieldify.scss */
+ul.contact-info {
+  margin-top: 12px;
+}
+/* line 1129, ../sass/yieldify.scss */
+ul.contact-info ul li {
+  line-height: 16px;
+}
+
+/* line 1135, ../sass/yieldify.scss */
+.lang-sel {
+  color: #999;
+  position: relative;
+  width: 40px;
+  padding: 20px 0;
+}
+/* line 1136, ../sass/yieldify.scss */
+.lang-sel a, .lang-sel .filter-option {
+  color: black;
+}
+/* line 1139, ../sass/yieldify.scss */
+.lang-sel .text {
+  font-weight: 200;
+}
+/* line 1146, ../sass/yieldify.scss */
+.lang-sel .dropdown-menu {
+  min-width: initial;
+}
+/* line 1148, ../sass/yieldify.scss */
+.lang-sel .dropdown-menu > li > a {
+  text-align: center;
+  padding: 3px 10px;
+}
+
+/* line 1155, ../sass/yieldify.scss */
+.navbar {
+  width: 100%;
+}
+
+/* line 1161, ../sass/yieldify.scss */
+.navbar .nav > li > a {
+  padding: 20px 10px;
+}
+
+/* line 1164, ../sass/yieldify.scss */
+.navbar .nav > li .filter-option {
+  padding: 20px 0 20px 16px;
+  color: #999999;
+}
+
+/* line 1168, ../sass/yieldify.scss */
+.bootstrap-select.btn-group.language-select .btn .filter-option {
+  font-size: 14px;
+}
+
+/* line 1171, ../sass/yieldify.scss */
+.bootstrap-select.language-select.btn-group {
+  width: 80px;
+}
+
+/* line 1175, ../sass/yieldify.scss */
+.bootstrap-select.language-select.btn-group .btn.btn-default.dropdown-toggle {
+  padding: 6px 0 6px 12px;
+}
+
+/* line 1179, ../sass/yieldify.scss */
+.bootstrap-select.language-select.btn-group .dropdown-menu {
+  top: 20px;
+  left: -6px;
+  background-color: white;
+}
+
+/* line 1185, ../sass/yieldify.scss */
+.bootstrap-select.language-select.btn-group .dropdown-menu {
+  top: 18px;
+  background: #FFFFFF;
+}
+
+/* line 1190, ../sass/yieldify.scss */
+footer .contact-info a {
+  color: #8BC7FC !important;
+}
+
+/* line 1193, ../sass/yieldify.scss */
+footer .contact-details a {
+  color: #8BC7FC !important;
+}
+
+/* line 1196, ../sass/yieldify.scss */
+.about-us-skill-list li i {
+  font-size: inherit !important;
+  background: none !important;
+  padding-right: 0.5em;
+}
+
+/* line 1201, ../sass/yieldify.scss */
+.about-us-skill-list li h4 {
+  color: #3781c2 !important;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+/* line 1209, ../sass/yieldify.scss */
+.footer-bg {
+  padding-top: 70px !important;
+}
+
+/* line 1212, ../sass/yieldify.scss */
+ul.footer-nav {
+  white-space: nowrap;
+  display: inline-block;
+  margin: 0 auto !important;
+  list-style: none;
+}
+/* line 1219, ../sass/yieldify.scss */
+ul.footer-nav li {
+  float: left;
+  width: 65px;
+}
+/* line 1222, ../sass/yieldify.scss */
+ul.footer-nav li a {
+  float: left;
+}
+
+/* line 1229, ../sass/yieldify.scss */
+.de ul.footer-nav li:nth-child(6) {
+  margin-left: 20px;
+  width: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 1237, ../sass/yieldify.scss */
+  ul.footer-nav li {
+    width: 25%;
+  }
+}
+/* line 1244, ../sass/yieldify.scss */
+.header-nav-wrap {
+  display: block;
+  height: 62px;
+}
+
+/* line 1250, ../sass/yieldify.scss */
+.job-description, .job-description li {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  letter-spacing: 0.02em;
+  word-spacing: 0.2em;
+}
+/* line 1255, ../sass/yieldify.scss */
+.job-description ul, .job-description li ul {
+  margin-left: 2em;
+}
+/* line 1259, ../sass/yieldify.scss */
+.job-description h2, .job-description li h2 {
+  margin: 0;
+  padding: 24px 0;
+  text-align: center;
+  font-size: 2em;
+}
+/* line 1265, ../sass/yieldify.scss */
+.job-description h4, .job-description li h4 {
+  margin: 0;
+  padding: 24px 0;
+  color: #999999;
+}
+
+/* line 1272, ../sass/yieldify.scss */
+.stick-bottom {
+  margin-bottom: -6px;
+}
+
+/* line 1275, ../sass/yieldify.scss */
+.padding-last-none:last-child {
+  padding-bottom: 0px;
+}
+
+/* line 1278, ../sass/yieldify.scss */
+.padding-bottom0 {
+  padding-bottom: 0px;
+}
+
+/* line 1281, ../sass/yieldify.scss */
+.padding-top32 {
+  padding-top: 32px;
+}
+
+/* line 1284, ../sass/yieldify.scss */
+.padding-bottom32 {
+  padding-bottom: 32px;
+}
+
+/* line 1288, ../sass/yieldify.scss */
+.padding-top4 {
+  padding-top: 4px;
+}
+
+/* line 1291, ../sass/yieldify.scss */
+.padding-bottom4 {
+  padding-bottom: 4px;
+}
+
+/* line 1299, ../sass/yieldify.scss */
+.flush-left > * {
+  margin-left: -30px !important;
+}
+
+/* line 1303, ../sass/yieldify.scss */
+.flush-right > * {
+  margin-right: -30px !important;
+}
+
+/* line 1317, ../sass/yieldify.scss */
+#youtubevid {
+  width: 596px;
+  height: 480px;
+}
+
+/* line 1321, ../sass/yieldify.scss */
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+/* line 1326, ../sass/yieldify.scss */
+#example_video_2 {
+  height: auto !important;
+}
+
+@media screen and (max-width: 1400px), screen and (max-height: 760px) {
+  /* line 1333, ../sass/yieldify.scss */
+  #youtubevid, #youtubevid iframe {
+    width: 596px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 979px), screen and (max-height: 520px) {
+  /* line 1340, ../sass/yieldify.scss */
+  #youtubevid, #youtubevid iframe {
+    width: 596px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 767px), screen and (max-height: 360px) {
+  /* line 1347, ../sass/yieldify.scss */
+  #youtubevid, #youtubevid iframe {
+    width: 480px;
+    height: 330px;
+  }
+}
+@media screen and (max-width: 479px), screen and (max-height: 200px) {
+  /* line 1355, ../sass/yieldify.scss */
+  #youtubevid, #youtubevid iframe {
+    width: 280px;
+    height: 180px;
+  }
+}
+/* line 1371, ../sass/yieldify.scss */
+.video-thumb-holder {
+  width: 90%;
+  font-size: 24px;
+  position: relative;
+}
+/* line 1375, ../sass/yieldify.scss */
+.video-thumb-holder > img, .video-thumb-holder .video-thumb-overlay {
+  width: 420px;
+  height: 238px;
+  position: relative;
+  top: -100px;
+  color: #FFFFFF;
+  left: 0px;
+}
+/* line 1383, ../sass/yieldify.scss */
+.video-thumb-holder > img video, .video-thumb-holder .video-thumb-overlay video {
+  background-color: #F3f3f3;
+}
+/* line 1386, ../sass/yieldify.scss */
+.video-thumb-holder > img .video-thumb-controls, .video-thumb-holder .video-thumb-overlay .video-thumb-controls {
+  width: 100%;
+  height: 42px;
+  bottom: 0;
+  right: 0px;
+  position: absolute;
+  text-align: right;
+  padding-right: 8px;
+}
+/* line 1396, ../sass/yieldify.scss */
+.video-thumb-holder > img .video-thumb-controls, .video-thumb-holder .video-thumb-overlay .video-thumb-controls {
+  bottom: 0px;
+}
+/* line 1398, ../sass/yieldify.scss */
+.video-thumb-holder > img .video-thumb-controls .watch-msg, .video-thumb-holder .video-thumb-overlay .video-thumb-controls .watch-msg {
+  font-weight: 600;
+  display: none;
+}
+/* line 1403, ../sass/yieldify.scss */
+.video-thumb-holder > img .video-thumb-controls .icon-volume-off, .video-thumb-holder > img .video-thumb-controls .icon-volume-up, .video-thumb-holder .video-thumb-overlay .video-thumb-controls .icon-volume-off, .video-thumb-holder .video-thumb-overlay .video-thumb-controls .icon-volume-up {
+  position: relative;
+}
+/* line 1406, ../sass/yieldify.scss */
+.video-thumb-holder > img .video-thumb-controls .icon-volume-up, .video-thumb-holder .video-thumb-overlay .video-thumb-controls .icon-volume-up {
+  left: 12px;
+  display: none;
+}
+/* line 1412, ../sass/yieldify.scss */
+.video-thumb-holder > img {
+  top: 0;
+}
+/* line 1417, ../sass/yieldify.scss */
+.video-thumb-holder .video-thumb-overlay:hover .video-thumb-controls .watch-msg {
+  display: inline;
+}
+/* line 1420, ../sass/yieldify.scss */
+.video-thumb-holder .video-thumb-overlay:hover .video-thumb-controls .icon-volume-up {
+  display: inline;
+}
+/* line 1423, ../sass/yieldify.scss */
+.video-thumb-holder .video-thumb-overlay:hover .video-thumb-controls .icon-volume-off {
+  display: none;
+}
+
+/* line 1430, ../sass/yieldify.scss */
+.video-thumb-small-holder {
+  color: #FFFFFF;
+}
+/* line 1431, ../sass/yieldify.scss */
+.video-thumb-small-holder h4 {
+  color: #FFFFFF;
+}
+/* line 1435, ../sass/yieldify.scss */
+.video-thumb-small-holder .video-thumb-overlay {
+  width: 420px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 1439, ../sass/yieldify.scss */
+.video-thumb-small-holder .video-thumb-overlay .video-thumb-controls {
+  padding-left: 285px;
+}
+/* line 1441, ../sass/yieldify.scss */
+.video-thumb-small-holder .video-thumb-overlay .video-thumb-controls .icon-volume-up {
+  display: none;
+}
+/* line 1444, ../sass/yieldify.scss */
+.video-thumb-small-holder .video-thumb-overlay .video-thumb-controls .icon-volume-off {
+  display: inline;
+}
+/* line 1453, ../sass/yieldify.scss */
+.video-thumb-small-holder .video-thumb-overlay:hover .video-thumb-controls .icon-volume-up {
+  display: inline;
+}
+/* line 1456, ../sass/yieldify.scss */
+.video-thumb-small-holder .video-thumb-overlay:hover .video-thumb-controls .icon-volume-off {
+  display: none;
+}
+
+/* line 1463, ../sass/yieldify.scss */
+.contact-details > * {
+  display: inline;
+}
+
+/* line 1469, ../sass/yieldify.scss */
+.overlay-cycle, .overlay-cycle-bg {
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-left: 0%;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  transition: background 1s;
+  width: 100%;
+  background-size: 160%;
+  background-position: 50%;
+}
+
+/* line 1487, ../sass/yieldify.scss */
+.overlay-cycle-bg {
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/imac---overlay.png");
+}
+
+@media screen and (max-width: 979px) {
+  /* line 1495, ../sass/yieldify.scss */
+  .column-pic {
+    max-height: 400px;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 1506, ../sass/yieldify.scss */
+  .column-pic {
+    max-height: 300px;
+    padding-top: 0;
+  }
+
+  /* line 1512, ../sass/yieldify.scss */
+  .overlay-cycle {
+    background-size: 50%;
+    margin-left: 0;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 1521, ../sass/yieldify.scss */
+  .column-pic {
+    max-height: 200px;
+    padding-top: 0;
+  }
+
+  /* line 1526, ../sass/yieldify.scss */
+  .overlay-cycle {
+    background-size: 50%;
+    margin-left: 0;
+    height: 400px;
+  }
+}
+/* line 1534, ../sass/yieldify.scss */
+.video-thumb-holder .video-js, .video-thumb-holder #video-thumb-desktop {
+  width: 420px !important;
+}
+
+/* line 1544, ../sass/yieldify.scss */
+.overlay-cycle-1 {
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/imac---overlay-1.png") !important;
+}
+
+/* line 1544, ../sass/yieldify.scss */
+.overlay-cycle-2 {
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/imac---overlay-2.png") !important;
+}
+
+/* line 1544, ../sass/yieldify.scss */
+.overlay-cycle-3 {
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/imac---overlay-3.png") !important;
+}
+
+/* line 1544, ../sass/yieldify.scss */
+.overlay-cycle-4 {
+  background-image: url("http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/imac---overlay-4.png") !important;
+}
+
+/*
+.overlay-cycle-1
+.overlay-cycle-2,
+.overlay-cycle-3,
+.overlay-cycle-4,
+.overlay-cycle-bg {
+	background-image: url('../img/tinypng/imac-overlay.png');
+}
+
+.overlay-cycle-1{ background-position: 0 0; width: 550px; height: 415px; } 
+.overlay-cycle-2{ background-position: 0 -465px; width: 550px; height: 415px; } 
+.overlay-cycle-3{ background-position: 0 -930px; width: 550px; height: 415px; } 
+.overlay-cycle-4{ background-position: 0 -1395px; width: 550px; height: 415px; } 
+.overlay-cycle-bg { background-position: 0 -1860px; width: 550px; height: 415px; } 
+*/
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+  /* line 1569, ../sass/yieldify.scss */
+  .fullwidthbanner ul li > div {
+    -webkit-transform: none !important;
+    transform: none !important;
+  }
+}
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  /* line 1576, ../sass/yieldify.scss */
+  .fullwidthbanner ul li > div {
+    -webkit-transform: none !important;
+    transform: none !important;
+  }
+}
+/* line 1585, ../sass/yieldify.scss */
+.white h1, .white h2, .white h3, .white h4, .white h5, .white h6, .white p, .white span, .white div {
+  color: #FFFFFF;
+}
+/* line 1588, ../sass/yieldify.scss */
+.white h4 {
+  font-weight: 350 !important;
+}
+/* line 1593, ../sass/yieldify.scss */
+.white p {
+  font-weight: 350;
+  opacity: 0.85;
+  text-shadow: 1px 1px 0px #2c679a !important;
+}
+
+/* line 1601, ../sass/yieldify.scss */
+.footer-bg {
+  background: #444444;
+}
+
+/* line 1606, ../sass/yieldify.scss */
+img.foot-logo {
+  opacity: 0.4;
+  height: 2em;
+  -webkit-transition: opacity, 0.25s;
+  -moz-transition: opacity, 0.25s;
+  transition: opacity, 0.25s;
+}
+
+/* line 1612, ../sass/yieldify.scss */
+img.foot-logo:hover {
+  opacity: 0.8;
+}
+
+/* line 1619, ../sass/yieldify.scss */
+.tp-bullets.simplebullets.round .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(http://s3.amazonaws.com/ManualUploads/yieldifybrand/img/bullet.png) no-Repeat top left;
+}
+
+/* line 1627, ../sass/yieldify.scss */
+.md-output h1, .md-output h2, .md-output h3, .md-output h4, .md-output h5, .md-output h6 {
+  padding: 1em 0;
+}
+/* line 1630, ../sass/yieldify.scss */
+.md-output a {
+  display: inline;
+}
+
+/* line 1637, ../sass/yieldify.scss */
+body.fr .navbar .nav > li > a, body.es .navbar .nav > li > a {
+  font-size: 13px;
+}
+
+/* line 1643, ../sass/yieldify.scss */
+body.es .footer-nav li, body.fr .footer-nav li, body.it .footer-nav li, body.de .footer-nav li, body.nl .footer-nav li {
+  width: auto;
+  padding: 0 10px;
+}
+
+/* line 1650, ../sass/yieldify.scss */
+body.nl .caption.very_big_white {
+  font-size: 26px;
+}
+/* line 1654, ../sass/yieldify.scss */
+body.nl .footer-nav li {
+  padding: 0 10px 0 0;
+}
+/* line 1656, ../sass/yieldify.scss */
+body.nl .footer-nav li a {
+  font-size: 14px;
+}
+
+/* line 1663, ../sass/yieldify.scss */
+a.current {
+  color: #3782c1 !important;
+}
+
+/* line 1668, ../sass/yieldify.scss */
+.job-title .tertiary {
+  font-size: 16px;
+  padding-left: 23px;
+  margin-top: -10px;
+  display: block;
+}
