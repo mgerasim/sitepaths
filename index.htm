@@ -1,8 +1,187 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+	<link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
+    <script src="//vjs.zencdn.net/4.2/video.js"></script>  
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+
+
+    <!-- Bootstrap CSS and JS Files -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <!--link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" -->
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" />
+    
+	<link rel="stylesheet" type="text/css" href="http://s3.amazonaws.com/ManualUploads/yieldifybrand/css/all.min.css" />
+	<link rel="stylesheet" type="text/css" href="./css/yieldify.css" />
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+        <script src="http://s3.amazonaws.com/ManualUploads/yieldifybrand/js/custom.min.js"></script>
+
+ 
+
+    <!-- Bootstrap Select Picker -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" type="text/javascript"></script>
+    <script src="./js/jquery.observereffect.js" type="text/javascript"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+      
+ <script type="text/javascript">
+        if (!jQuery) jQuery = $;
+        $(function() {
+
+            var $mobileLangBtn = jQuery('.lang.mobile-button-holder button');
+            var $mobileLangMenu = jQuery('.lang.mobile-menu-holder');
+            var $mobileMainBtn = jQuery('.main.mobile-button-holder button');
+            var $mobileMainMenu = jQuery('.main.mobile-menu-holder');
+
+            var cssShow = {'z-index':10, display:'block'},
+                cssHide = {'z-index':1, display:'none'};
+
+
+            $mobileLangMenu.addClass('closed-menu').css(cssHide);
+            $mobileLangBtn.click(function (e) {  toggleLangMenu(e); });
+            function toggleLangMenu(e) {  
+ 
+                $mobileMainMenu.addClass('closed-menu').css(cssHide);
+                $mobileMainBtn.removeClass('close');
+                if ($mobileLangBtn.toggleClass('close').hasClass('close')) {
+                    $mobileLangMenu.removeClass('closed-menu').css(cssShow);
+                } else {
+                    $mobileLangMenu.addClass('closed-menu').css(cssHide);
+                }
+            }
+
+
+            $mobileMainMenu.addClass('closed-menu').css(cssHide);
+            $mobileMainBtn.click(function (e) {  toggleMainMenu(e); });
+            function toggleMainMenu(e) {  
+
+                $mobileLangMenu.addClass('closed-menu').css(cssHide);
+                $mobileLangBtn.removeClass('close');
+                if ($mobileMainBtn.toggleClass('close').hasClass('close')) {
+                    $mobileMainMenu.removeClass('closed-menu').css(cssShow);
+                } else {
+                    $mobileMainMenu.addClass('closed-menu').css(cssHide);
+                }
+            }
+
+            jQuery('.lang-sel').fadeIn();
+            jQuery('.observer-effect').observerEffect({
+                onScrolledInToView: 
+                [
+                    {
+                        type: 'classAdd', clas: 'info_box-green', isOnce:true
+                    },
+
+                    // leads: animate
+                    {
+                        type: 'animate', isOnce:true, target: '.inc-stat-animated-leads', args: [
+                            {
+                                testValue: 242
+                            }, 
+                            {
+                                easing:'easeInOutCirc',
+                                duration: 5000,
+                                step: function( testValue, details ){
+                                    details.elem.innerHTML = 100+Math.round(testValue);
+                                }
+                            }
+                        ]
+                    },
+
+                    //Set revenue to start value (because we delay the animation)
+                    {
+                        type: 'animate', isOnce:true, target: '.inc-stat-animated-revenue', args: [
+                            {
+                                testValue: 0
+                            }, 
+                            {
+                                duration: 0,
+                                step: function( testValue, details ){
+                                    details.elem.innerHTML = (Math.round(testValue) / 10).toFixed(1);
+                                }
+                            }
+                        ]
+                    },
+
+                    //Revenue: Delay starting
+                    {
+                        type: 'callFunc', isOnce:true, functionName: 'delay', target: '.inc-stat-animated-leads', args: [1000]
+                    },
+
+
+                    //Revenue: Animate number
+                    {
+                        type: 'animate', isOnce:true, target: '.inc-stat-animated-revenue', args: [
+                            {
+                                testValue: 142
+                            }, 
+                            {
+                                easing:'easeInOutCirc',
+                                duration: 5000,
+                                step: function( testValue, details ){
+                                    details.elem.innerHTML = (Math.round(testValue) / 10).toFixed(1);
+                                }
+                            }
+                        ]
+                    }
+                ],
+                onScrolledOutOfView: [
+                        //{ type: 'classRemove', class: 'info_box-green'}
+                ]
+            });
+
+
+            var $overlayCycle = jQuery('.overlay-cycle'),
+                current = 1;
+ 
+            setInterval( function ($overlayCycle) 
+                {
+                    return function () {
+                        current++;
+                        if (current > 4) current = 1; 
+                        $overlayCycle.removeClass('overlay-cycle-1 overlay-cycle-2 overlay-cycle-3 overlay-cycle-4 overlay-cycle-5'); 
+                        $overlayCycle.addClass('overlay-cycle-'+current);
+                    }     
+                }($overlayCycle),
+                3500
+            );
+
+            jQuery('.lang-options-holder').click(function(e) {
+                //e.preventDefault();
+                var clickedClass = jQuery(e.target).attr('class');
+                if (clickedClass) {
+                    if (clickedClass.indexOf('lang-option-') != -1 && clickedClass.indexOf('lang-option ') != -1) {
+                        var lang = clickedClass.split('lang-option-')[1]
+                        jQuery.cookie('langsel', lang, { path: '/' });
+                    } else {
+                        console.log(clickedClass);
+                    }
+                }
+                
+            });
+
+        });
+
+ </script>	
 	</head>
 	
 	<body>
+		<div class="menu-block peter-river page-home "  >
+		</div>
+		
+		<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/placeholders/2.1.0/placeholders.js'></script>
+		
 	</body>
 </html>
